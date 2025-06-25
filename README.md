@@ -95,11 +95,13 @@ This project is intended to run as-is without a build step. Just ensure:
 
 ## 📸 Screenshots
 
-You can add screenshots here in Markdown:
+![alt text](image.png)
 
 ## 🤝 Contributing
 
 Pull requests are welcome! For major changes, please open an issue first to discuss your ideas.
+
+[![Contributors](https://img.shields.io/github/contributors/nutanmishra/quick-capture-extension?color=blue)](https://github.com/nutanmishra/quick-capture-extension/graphs/contributors)
 
 ### Ideas to Contribute:
 
