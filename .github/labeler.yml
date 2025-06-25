@@ -1,0 +1,20 @@
+# labeler.yml
+documentation:
+  - "**/*.md"
+  - "docs/**/*"
+
+bug:
+  - "src/**/*.js"
+  - "src/**/*.ts"
+
+frontend:
+  - "popup.*"
+  - "background.js"
+  - "**/*.html"
+  - "**/*.css"
+
+config:
+  - ".github/**/*"
+  - "package.json"
+  - "commitlint.config.js"
+  - "**/husky/**"
