@@ -2,7 +2,7 @@ body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   margin: 0;
   padding: 12px;
-  width: 368px;
+  width: 324px;
   background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
   color: #333;
   box-sizing: border-box;
@@ -70,13 +70,13 @@ h2 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 8px;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .card {
   background: white;
   border-radius: 8px;
-  padding: 12px;
+  padding: 4px;
   text-align: center;
   cursor: pointer;
   transition: transform 0.2s, box-shadow 0.2s;
@@ -95,7 +95,7 @@ h2 {
 }
 
 .card h3 {
-  font-size: 0.75rem;
+  font-size: 0.65rem;
   margin: 0 0 4px;
   color: #2c3e50;
 }
@@ -109,7 +109,7 @@ h2 {
 .capture-list {
   list-style: none;
   padding: 0;
-  margin: 0 0 16px;
+  margin: 0 0 8px;
 }
 
 .capture-list li {
@@ -122,6 +122,8 @@ h2 {
   margin-bottom: 8px;
   cursor: pointer;
   transition: background 0.2s;
+  font-size: 12px;
+  font-weight: 500;
 }
 
 .capture-list li:hover {
@@ -135,9 +137,9 @@ h2 {
   color: #3498db;
 }
 
-/* .settings {
-  margin-bottom: 16px;
-} */
+.settings {
+  font-size: 12px;
+}
 
 .toggle-item {
   display: flex;
@@ -146,11 +148,11 @@ h2 {
   margin-bottom: 8px;
 }
 
-.toggle-label {
+/* .toggle-label {
   font-size: 0.9rem;
   color: #2c3e50;
   font-weight: 500;
-}
+} */
 
 .toggle-switch {
   position: relative;
